@@ -20,6 +20,8 @@ class Test(unittest.TestCase):
 
         # verifica o retorno do conteudo da pagina
         self.assertRegex(result.data.decode(), "Eu Sou Hackudo.")
+        
+        #codigo não funciona
 
 
 if __name__ == "__main__":
